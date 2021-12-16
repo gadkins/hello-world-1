@@ -2,7 +2,6 @@ services:
   hello-world:
     build:
       context: https://github.com/gadkins/hello-world-1
-      dockerfile: test-1345/Dockerfile
 
 ingress:
   service: hello-world
